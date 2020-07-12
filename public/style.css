@@ -1,0 +1,34 @@
+/* ------------ change_zone ------------ */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 20px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+div#change_nick{
+    width: 100%;
+}
+
+section#change_zone{
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+header{
+    text-align: center;
+}
+
+section#chat_window{
+    height: 400px;
+    width: 400px;
+    overflow: auto;
+}

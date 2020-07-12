@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    
+    <title>ChatTwS</title>
+  </head>
+  <body>
+    <header>
+      ChatTwS
+    </header>
+
+    <section id="change_zone">
+      <div id="change_nick">
+        <input id="nick" type="text" />
+        <button id="send_nick" type="button">Change nick</button>
+      </div>
+    </section>
+
+    <section id="chat_window">
+      <section id="feedback"></section>
+    </section>
+
+    <section id="input_zone">
+      <div id="input_msg">
+        <input id="msg" type="text" />
+        <button id="send_msg" type="button">Send</button>
+      </div>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
